@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form action="" id="form">
+      <p class="title">
+        <span style="color: #fbff00; font-size: 30px">KAMOLON OSH MARKAZI</span>
+        <br />
+        XODIM QO'SHISH OYNASI
+      </p>
+      <label for="">Ism</label>
+      <input required id="ism" type="text" />
+      <!-- .... -->
+
+      <label for="">Familiya</label>
+      <input required id="familiya" type="text" />
+      <!-- .... -->
+
+      <label for="">Manzili</label>
+      <input required id="manzil" type="text" />
+      <!-- .... -->
+
+      <label for="">Telefon raqami</label>
+      <input
+        required
+        id="telefon"
+        type="text"
+        maxlength="13"
+        placeholder="+998"
+      />
+      <!-- .... -->
+
+      <label for="">Parol yarating</label>
+      <input required id="parol" type="password" minlength="8" />
+      <!-- .... -->
+
+      <label for="">Rol</label> <br />
+      <select required name="" id="rol">
+        <option value="">Rol tanlang</option>
+        <option value="admin">Admin</option>
+        <option value="ofitsant">Girgitton</option>
+        <option value="oshpaz">Oshpaz</option>
+        <option value="kassir">Hisobchi</option>
+      </select>
+      <br />
+      <!-- .... -->
+
+      <button id="yaratish">Yaratish</button>
+
+      <a class="keyingiSahifa" href="./xodimlar.html">Yaratilgan xodimlar</a>
+    </form>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
